@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
+require('./style.js');
 export class Home extends React.Component{
 static navigationOptions = {
   drawerLabel : 'Home',
@@ -8,20 +9,8 @@ static navigationOptions = {
 render(){
 return(
   <View style={styles.display}>
-    <Text>"Home Screen"</Text>
+    <Text>"Home"</Text>
   </View>
 );
 }
 }
-
-const styles = StyleSheet.create({
-  icon:{
-    width : 24,
-    height : 24,
-  },
-  display:{
-    flex : 1,
-    alignItems: 'center',
-    justifyContent:'center',
-  }
-});

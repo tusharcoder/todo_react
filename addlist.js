@@ -1,5 +1,6 @@
 import React from "react";
 import {View, Text, Image, StyleSheet} from 'react-native';
+require('./style.js')
 export class AddList extends React.Component {
   static navigationOptions = {
     drawerLabel : 'Add List',
@@ -13,16 +14,3 @@ export class AddList extends React.Component {
     );
   }
 }
-
-
-const styles = StyleSheet.create({
-  icon:{
-    width : 24,
-    height : 24,
-  },
-  display:{
-    flex : 1,
-    alignItems: 'center',
-    justifyContent:'center',
-  }
-});
