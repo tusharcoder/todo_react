@@ -9,7 +9,7 @@ static navigationOptions = {
 render(){
 return(
   <View style={styles.display}>
-    <Text>"Home"</Text>
+    <Text>"Home View"</Text>
   </View>
 );
 }
