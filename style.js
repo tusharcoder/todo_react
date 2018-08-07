@@ -4,9 +4,12 @@
 import {StyleSheet} from 'react-native';
 
 s = StyleSheet.create({
-  icon:{
+  image:{
     width : 24,
     height : 24,
+  },
+  icon:{
+    color:'#fff',
   },
   display:{
     flex : 1,

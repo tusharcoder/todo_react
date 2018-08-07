@@ -4,7 +4,7 @@ require('./style.js')
 export class AddList extends React.Component {
   static navigationOptions = {
     drawerLabel : 'Add List',
-    drawerIcon : ()=><Image source={require('./images/chats_icon.png')} style={[styles.icon]}/>
+    drawerIcon : ()=><Image source={require('./images/chats_icon.png')} style={[styles.image]}/>
   };
   render() {
     return (
